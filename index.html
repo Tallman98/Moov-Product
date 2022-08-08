@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://use.fontawesome.com/6ed5ae667b.js"></script>
   </head>
   <body>
     <header class="p-wrapper">
@@ -25,10 +26,28 @@
         <p><a href="">Documentation</a></p>
         <p><a href="">Contact Us</a></p>
       </div>
-      <div>
+      <div class="action_btns">
         <button class="logIn_btn">Log In</button>
         <button class="getStartedBtn1">Get Started</button>
       </div>
+      <label for="hamburger" class="hamburger_icon">
+        <input type="checkbox" id="hamburger" hidden class="hamburger_input" />
+        hamburger
+        <div class="nav_links_slider">
+          <label for="hamburger">x</label>
+          <div class="actionLinks">
+            <p>
+              <a href=""><b>Home</b></a>
+            </p>
+            <p><a href="">Documentation</a></p>
+            <p><a href="">Contact Us</a></p>
+          </div>
+          <div class="action_btns">
+            <button class="logIn_btn">Log In</button>
+            <button class="getStartedBtn1">Get Started</button>
+          </div>
+        </div>
+      </label>
     </header>
     <main>
       <section>
@@ -36,19 +55,17 @@
           <div class="heroSection_bg">
             <img src="./assets/hero-bg.png" alt="hero_bg" />
           </div>
-          <h1>
-            Moov; making animation <br />
-            simple and easy to use
-          </h1>
+          <h1>Moov; making animation simple and easy to use</h1>
           <p>
             Moov is a platform with the toolset that allows you to create, edit,
-            test, and display <br />
-            animations, Create personalised libraries and be your own animation
-            champion.
+            test, and display animations, Create personalised libraries and be
+            your own animation champion.
           </p>
           <button class="getStartedBtn2">Get Started</button>
         </div>
       </section>
+      <h3 class="featuredAnimationsText p-wrapper">Featured animations</h3>
+      <div class="featuredAnimations"></div>
       <section class="infoSection p-wrapper">
         <h2 class="subHeading">Here’s what you can achieve with Moov</h2>
         <div class="firstRow">
